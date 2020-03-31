@@ -13,9 +13,9 @@ console.log(menu);
 // faccio comparire l'hamburger menu al click
 menu.on({
   click: function(){
-
     menuHamburger.show();
-    menuHamburger.addClass('hamburger-menu.active');
+    // menuHamburger.addClass('hamburger-menu.active');
+
   }
 });
 // faccio scomparire l'hamburger menu al click
