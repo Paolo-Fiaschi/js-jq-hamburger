@@ -5,6 +5,9 @@
   box-sizing: border-box;
   list-style-type: none;
 }
+span{
+  display: inline-block;
+}
 header{
   height: 70px;
   position: fixed;
@@ -67,15 +70,27 @@ a:visited{
 .hamburgerMenuList li:last-child a:hover{
   border: none;
   box-shadow: 5px 5px rgb(31, 44, 55);
+  position: relative;
 }
-
+.sconto{
+  display: none;
+  color: #1B3C59;
+  font-size: 28px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  bottom: 20%;
+  right:0;
+  padding: 40px;
+  font-weight: bolder;
+}
 .iconHamburgerMenu {
   display: none;
 }
 .close {
     display: block;
     position: absolute;
-    right: calc(50%);
+    right: 50%;
     bottom: 0px;
     color: white!important;
     font-size: 35px;
