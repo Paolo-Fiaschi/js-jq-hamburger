@@ -5,7 +5,7 @@
 // ---------------------------------------------------------------------
 
 // assegno una variabile al mio elemento html su cui voglio cliccare
-var menu = $ (".header-right a");
+var menu = $ (".header-right > a");
 var menuHamburger = $ (".hamburger-menu");
 var menuClose = $ (".close");
 console.log(menu);
@@ -13,6 +13,7 @@ console.log(menu);
 // faccio comparire l'hamburger menu al click
 menu.on({
   click: function(){
+
     menuHamburger.show();
     menuHamburger.addClass('hamburger-menu.active');
   }
